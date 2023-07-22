@@ -1,0 +1,2360 @@
+<html>
+<head>
+<title> template </title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css'>    
+ 
+<style>
+
+
+
+
+body{
+margin:0px;
+padding:0px;
+}
+
+
+
+
+/*first page */
+
+
+.herosection{
+          background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://media.istockphoto.com/id/170961867/photo/construction-workers-working-on-construction-site.jpg?s=612x612&w=0&k=20&c=DyizE_4OvIw1xgOo5cNShX2Hg7tdYJUuSYl3-FWAqWU=");
+          background-repeat:no-repeat;
+          background-size:cover;
+          padding-bottom:160px;
+}
+.logo p {
+        color: white;
+        font-size: 24px;
+        font-family: sans-serif;
+}
+.navbar {
+    width: 94.5%;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 70px;
+}
+
+.nav-list ul {
+    display: flex;
+    padding-inline-start: 0px;
+}
+.nav-list li {
+    cursor: pointer;
+    padding: 20px;
+}
+
+#home{
+    color:white;
+}
+
+.nav-list a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #FFFFFF99;
+    font-family: sans-serif;
+    text-transform:uppercase;
+position:relative;
+}
+.nav-list a::after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    left: 7px;
+    top: 21px;
+    height: 2px;
+    background: #feb900;
+transition:0.3s;
+}
+.nav-list a:hover::after{
+ width: 70%;
+
+
+}
+
+
+.nav-list a:hover{
+         color:#fff;
+ }
+i.fa-solid.fa-bars {
+    color: #fff;
+    font-size: 20px;
+    display:none;
+}
+
+.qq {
+    width: 50%;
+    /* border: 1px solid black; */
+    margin: auto;
+    padding-top:40px;
+ }
+
+.herocontainer {
+    width:100%;
+    margin-top:35px;
+    text-align: center;
+}
+.herocontainer h1 {
+    margin: 0px;
+    color: #fff;
+    font-size: 70px;
+
+
+}
+
+.herocontainer h2 {
+    color: #feb900;
+    margin-top: 0px;
+    
+}
+.herocontainer p {
+    color: #FFFFFF99;
+    font-size: 24px;
+}
+button#startbtn {
+    height: 53px;
+    width: 170px;
+    border: 2px solid #FEb900;
+    border-radius: 34px;
+    background: transparent;
+    color: white;
+    font-size: 18px;
+}
+#startbtn:hover{
+    background-color:#FEB900;
+}
+
+
+
+
+
+
+/*first page end here*/
+
+
+
+
+
+
+/*second page start*/
+
+
+.getaquote {
+    padding-top: 90px;
+    display: flex;
+  
+    justify-content: space-evenly;
+    background: #F4F6F7;
+    padding-bottom: 90px;
+}
+.getaquotebox1 {
+    width: 40%;
+    margin: 31px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.getaquotebox1 h1 {
+    margin-bottom: 0px;
+    font-size: 40px;
+    color: #52565e;
+}
+.getaquotebox1 h2 {
+    color: #feb900;
+    margin-top: 0;
+    font-size: 28px;
+}
+
+.getaquotebox1 p {
+    font-size: 16px;
+    color: #364d59;
+    font-family: math;
+}
+.getaquotebox2 {
+    width: 30%;
+    background-color: white;
+    padding: 21px;
+}
+.getaquotebox2 h2 {
+    font-size: 20px;
+    word-spacing: 4px;
+    font-family: sans-serif;
+    color: #364d59;
+}
+.getaquotebox2 p {
+    font-size: 19px;
+    color: #364d59;
+}
+input#name {
+    font-size: 22px;
+    height: 48px;
+    width: 100%;
+    padding: 11px;
+    text-transform: capitalize;
+    font-family: emoji;
+
+    border: none;
+    border: 1px solid #dee2e6;
+
+}
+#name:active{
+    border-color:#feb900;}
+
+input#email {
+    font-size: 22px;
+    height: 48px;
+    width: 100%;
+    padding: 11px;
+    border: none;
+    border: 1px solid #dee2e6;
+    text-transform: capitalize;
+    font-family: emoji;
+    margin-top:23px;
+}
+input#phone{
+    margin-top:23px;
+    font-size: 22px;
+    height: 48px;
+    width: 100%;
+ border: none;
+    border: 1px solid #dee2e6;
+    padding: 11px;
+    text-transform: capitalize;
+    font-family: emoji;
+}
+textarea#message{
+    margin-top:23px;
+    font-size: 22px;
+    height: 108px;
+    width: 100%;
+ border: none;
+    border: 1px solid #dee2e6;
+    padding: 11px;
+    text-transform: capitalize;
+    font-family: emoji;
+}
+button#getaquotebtn {
+    border: 0px;
+    margin-top: 23;
+    /* text-align: center; */
+    margin-left: 113px;
+    height: 45px;
+    color: white;
+    background-color: #feb900;
+    width: 135px;
+    border-radius: 6px;
+}
+
+
+
+
+/*secont page end here*/
+
+
+
+
+
+/* 3rd page start*/
+
+
+.constructionpage {
+    padding-bottom: 60px;
+    padding-top: 25px;
+}
+.aboutconstruction {
+    text-align: center;
+    margin: auto;
+    width: 60%;
+
+}
+.aboutconstruction h1 {
+    font-size: 38px;
+    font-family: sans-serif;
+    margin-bottom: 0px;
+position:relative;
+}
+.aboutconstruction h1::after {
+    content: '';
+    position: absolute;
+    width: 9%;
+    left: 23%;
+    top: 21px;
+    height: 2px;
+    background: #feb900;
+}
+.aboutconstruction h1::before {
+    content: '';
+    position: absolute;
+    width: 9%;
+    left: 68%;
+    top: 21px;
+    height: 2px;
+    background: #feb900;
+}
+
+.aboutconstruction p {
+    margin-bottom: 0px;
+    font-size: 20px;
+    color:#364d59;
+}
+
+
+.container1 {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.container2 {
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+.box1 {
+    border: none;
+    border: 1px solid #dee2e6;
+    width:41%;
+    display: flex;
+    margin: 15px;
+    margin-top: 35px;
+}
+.box2 {
+    border: none;
+    border: 1px solid #dee2e6;
+    display: flex;
+    width:41%;
+    margin: 15px;
+    margin-top: 35px;
+}
+.box3 {
+    border: none;
+    border: 1px solid #dee2e6;
+    width: 41%;
+    display: flex;
+    margin:15px;
+ }
+
+.box4 {
+    border: none;
+    border: 1px solid #dee2e6;
+    width: 41%;
+    display: flex;
+    margin:15px;
+
+}
+.box1 img {
+    height: 100%;
+    width: 213px;
+}
+.content1 {
+    margin: 29px;
+    color:#364d59;
+}
+.box2 img {
+    height: 100%;
+    width: 213px;
+}
+.content2{
+    margin: 29px;color:#364d59;
+}
+.box3 img {
+    height: 100%;
+    width: 213px;
+}
+.content3 {
+    margin: 29px;color:#364d59;
+}
+.box4 img {
+    height: 100%;
+    width: 213px;
+}
+.content4 {
+    margin: 29px;color:#364d59;
+}
+
+
+
+
+/*3rd page end here*/
+
+
+
+
+
+/*4th page*/
+
+
+.servicespage{
+    background: #F4F6F7;
+}
+
+.aboutservices {
+    margin: auto;
+    text-align: center;
+    width: 50%;
+    padding-top: 40px;
+}
+.aboutservices h1 {
+    font-size: 38px;
+    font-family: sans-serif;
+    margin-bottom: 0px;
+position:relative;
+}
+.aboutservices h1::after {
+    content: '';
+    position: absolute;
+    width: 9%;
+    left: 28%;
+    top: 21px;
+    height: 2px;
+    background: #feb900;
+}
+.aboutservices h1::before {
+    content: '';
+    position: absolute;
+    width: 9%;
+    left: 63%;
+    top: 21px;
+    height: 2px;
+    background: #feb900;
+}
+.aboutservices p {
+    margin-bottom: 0px;
+    font-size: 20px;
+    color:#364d59;
+}
+.aa {
+    padding: 40px;
+    padding-bottom:0px;
+    display: flex;
+    justify-content: space-evenly;
+    margin:auto;
+    width:80%;
+}
+.aab {
+    padding: 40px;
+    padding-top:0;
+    padding-bottom:70px;
+    display: flex;
+    justify-content: space-evenly;
+    margin:auto;
+    width:80%;
+}
+.servicebox1 {
+    background-color: #fff;
+    margin:10px;
+    padding-bottom:18px;
+    
+}
+.servicebox2 {
+    background-color: #fff;
+    margin:10px;
+    padding-bottom:18px;
+}
+.servicebox3 {
+    background-color: #fff;
+    margin:10px;
+    padding-bottom:18px;
+
+}
+.servicebox4 {
+    background-color: #fff;
+    margin:10px;
+    margin-top:10px;padding-bottom:18px;
+}
+
+.servicebox5 {
+    background-color: #fff;
+   
+    margin:10px;padding-bottom:18px;
+}
+.servicebox6 {
+    background-color: #fff;
+    margin:10px;
+    margin-top:10px;padding-bottom:18px;
+
+}
+
+.mountaincity {
+    margin: 33px;
+    font-size: 49px;
+    color:#52565e;
+}
+.servicebox1 h1 {
+    margin: 21px;
+    margin-bottom:0px;
+    color:#52565e;
+}
+.servicebox1 h2 {
+    margin-top: 0px;
+    margin-left: 24px;
+    color: #feb900;
+}
+.servicebox1 p {
+    margin: 23px;
+    color: #354d59;
+    font-family: fangsong;
+    font-size:16px;
+}
+.servicebox1 a {
+    font-size: 19px;
+    text-decoration: none;
+    margin: 25px;
+    color: #feb900;
+    font-family: math;
+}
+.servicebox2 h1 {
+    margin: 21px;
+    margin-bottom:0px;
+    color:#52565e;
+}
+.servicebox2 h2 {
+    margin-top: 0px;
+    margin-left: 24px;
+    color: #feb900;
+}
+.servicebox2 p {
+    margin: 23px;
+    color: #354d59;
+    font-family: fangsong;
+    font-size:16px;
+}
+.servicebox2 a {
+    font-size: 19px;
+    text-decoration: none;
+    margin: 25px;
+    color: #feb900;
+    font-family: math;
+}
+.servicebox3 h1 {
+    margin: 21px;
+    margin-bottom:0px;
+    color:#52565e;
+}
+.servicebox3 h2 {
+    margin-top: 0px;
+    margin-left: 24px;
+    color: #feb900;
+}
+.servicebox3 p {
+    margin: 23px;
+    color: #354d59;
+    font-family: fangsong;
+    font-size:16px;
+}
+.servicebox3 a {
+    font-size: 19px;
+    text-decoration: none;
+    margin: 25px;
+    color: #feb900;
+    font-family: math;
+}
+.servicebox4 h1 {
+    margin: 21px;
+    margin-bottom:0px;
+    color:#52565e;
+}
+.servicebox4 h2 {
+    margin-top: 0px;
+    margin-left: 24px;
+    color: #feb900;
+}
+.servicebox4 p {
+    margin: 23px;
+    color: #354d59;
+    font-family: fangsong;
+    font-size:16px;
+}
+.servicebox4 a {
+    font-size: 19px;
+    text-decoration: none;
+    margin: 25px;
+    color: #feb900;
+    font-family: math;
+}
+.servicebox5 h1 {
+    margin: 21px;
+    margin-bottom:0px;
+    color:#52565e;
+}
+.servicebox5 h2 {
+    margin-top: 0px;
+    margin-left: 24px;
+    color: #feb900;
+}
+.servicebox5 p {
+    margin: 23px;
+    color: #354d59;
+    font-family: fangsong;
+    font-size:16px;
+}
+.servicebox5 a {
+    font-size: 19px;
+    text-decoration: none;
+    margin: 25px;
+    color: #feb900;
+    font-family: math;
+}
+.servicebox6 h1 {
+    margin: 21px;
+    margin-bottom:0px;
+    color:#52565e;
+}
+.servicebox6 h2 {
+    margin-top: 0px;
+    margin-left: 24px;
+    color: #feb900;
+}
+.servicebox6 p {
+    margin: 23px;
+    color: #354d59;
+    font-family: fangsong;
+    font-size:16px;
+}
+.servicebox6 a {
+    font-size: 19px;
+    text-decoration: none;
+    margin: 25px;
+    color: #feb900;
+    font-family: math;
+}
+.mountaincity:hover {
+    color: #feb900;
+}
+
+
+
+/* 4th pagr end here*/
+
+
+
+
+/* 5th page start here*/
+
+
+
+.square {
+    display: flex;
+    padding-top: 125px;
+    padding-bottom: 125px;
+    margin: auto;
+    justify-content: center;
+}
+.photo {
+    width: 40%;    
+}
+.photo img {
+    width: 100%;
+    height: 100%;
+}
+.photoobox {
+    width: 40%;
+}
+
+.data h3 {
+    margin: 0px 40px;
+    font-size: 25px;
+    color: #364d59;
+}
+.data p {
+    margin: 10px 40px ! important;
+    font-size: 16px ! important;
+    font-family:sans-serif;
+}
+
+
+.photoobox h1 {
+    margin-top: 0px;
+    font-size: 43px;
+    font-family: sans-serif;
+    margin: 0px 12px 0px 40px;
+    color: #52565E;
+}
+.photoobox h2 {
+    color: #feb900;
+    margin: 0px 48px;
+  
+}
+.photoobox p {
+    color: #364d59;
+    margin: 23px 50px;
+    font-size: 25px;
+}
+.iconbox1 {
+    margin: 20px 0px 0px 50px;
+    display: flex;
+
+}
+
+span.bi.bi-easel {
+    font-size: 32px;
+    border-radius:5px;
+    width: 54px;
+    height: 54px;
+    color:#feb900;
+    background-color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+span.bi.bi-easel:hover{
+    color:#fff;
+    background-color:#feb900;
+}
+.sixthpage {
+    background: #f5f6f7;
+}
+.six1 {
+    margin: auto;
+    width: 60%;
+}
+ul.six {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-inline-start: 0px;
+}
+.six li {
+    padding: 46px;
+}
+.six a {
+    font-size: 40px;
+    text-decoration: none;
+    color: #364d59;
+}
+
+
+.aaaa {
+    display: flex;
+    justify-content: space-evenly;
+    width: 87%;
+    margin: auto;
+    padding-top:0px;
+    padding-bottom:80px;
+}
+.aacc{
+    width:50%;
+}
+
+.aaee{
+    width:50%;
+}
+.aaee img{
+    width:100%;
+}
+.aacc h1 {
+
+    font-family: sans-serif;
+    font-size: 48px;
+    margin: 0px;
+    color:#52565e;
+}.aacc h2 {
+
+    color: #feb900;
+    font-size: 26px;
+    margin-top: 0px;
+}
+.aacc p {
+    margin-top:15px;
+    font-size: 22px;
+    color: #364d59;
+}
+i.bi.bi-check2-all {
+    color: #feb900;
+}
+
+
+/*5th page ends here*/
+
+
+
+
+
+/*6th pagr start here*/
+
+
+
+
+
+
+
+.projects {
+    padding-top: 45px;
+    padding-bottom: 70px;
+
+}
+.ourprojects {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.ourprojects h1 {
+    font-size: 47px;
+    color: black;
+    font-family: sans-serif;
+    margin-bottom: 12px;
+position:relative;
+}
+.ourprojects h1::after {
+    content: '';
+    position: absolute;
+    width: 7%;
+    left: 29%;
+    top: 25px;
+    height: 2px;
+    background: #feb900;
+}
+.ourprojects h1::before {
+    content: '';
+    position: absolute;
+    width: 7%;
+    left: 64%;
+    top: 25px;
+    height: 2px;
+    background: #feb900;
+}
+.ourprojects p {
+    font-size: 21px;
+    font-family: sans-serif;
+    color: #364d59;
+}
+.project-list {
+    padding-top: 0px;
+    text-align:center;
+}
+.project-list ul {
+    display: inline-flex;
+    list-style-type: none;
+    padding-inline-start: 0px;
+    align-items:center;
+
+}
+.project-list li {
+    padding: 15px;
+}
+.project-list a {
+    font-size: 26px;
+    text-decoration: none;
+    color: #364d59;
+}
+.project-list a:hover{
+    color:#feb900;
+}
+.project-img {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 83%;
+    margin: auto;
+}
+.project-img img {
+    margin: 15px;
+    width: 31%;
+    opacity:1;
+}
+ .project-img img:hover{
+    opacity:0.5;
+}
+
+
+/*6th page end here*/
+
+
+
+
+
+
+
+/*7th page start*/
+
+
+
+
+.testmonialpage {
+    background: #f5f6f7;
+    padding-bottom: 100px;
+}
+.sss {
+    margin: auto;
+    padding-top: 45px;
+    width: 80%;
+    text-align: center;
+}
+.sss h1 {
+    font-size: 47px;
+    font-family: sans-serif;
+    margin-bottom: 12px;
+position:relative;
+
+}
+.sss h1::after {
+    content: '';
+    position: absolute;
+    width: 7%;
+    left: 29%;
+    top: 25px;
+    height: 2px;
+    background: #feb900;
+}
+.sss h1::before {
+    content: '';
+    position: absolute;
+    width: 7%;
+    left: 64%;
+    top: 25px;
+    height: 2px;
+    background: #feb900;
+}
+.sss p {
+    font-size: 22px;
+    margin: 0pc;
+}
+
+.testmonials {
+    padding-top: 65px;
+}
+.ddd {
+    width: 80%;
+    margin: auto;
+    background: #fff;
+}
+.aaaaa {
+    padding: 80px 80px 40px 80px;
+    display:flex;
+    position:relative;
+    left:-12%;
+    top:-28px;
+}
+.pic img {
+    width: 55%;
+    border: 7px solid white;
+    border-radius: 14px;
+}
+.aaaaa h1 {
+    margin: 0px;
+    font-family: sans-serif;
+    
+}
+.aaaaa h2 {
+    font-size: 20px;
+    margin-top: 7px;
+    color: #364d59;
+}
+span {
+    color: #feb900;
+}
+.aaaaa p {
+    color: #364d59;
+    font-size: 20px;
+}
+i.fa-solid.fa-quote-left {
+    color: #FFd565;
+}
+i.fa.fa-quote-right {
+    color: #ffd565;
+}
+
+
+/*7th page end here*/
+
+
+
+
+
+/* 8th page start here*/
+
+
+
+
+
+footer{
+
+    background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.5)),url("https://bootstrapmade.com/demo/templates/UpConstruction/assets/img/footer-bg.jpg");
+
+}
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 63px;
+    width: 80%;
+    margin: auto;
+    border-bottom: 1px solid #ffffff99;
+    padding-bottom: 20px;
+}
+.address {
+    margin: 5px;
+    width: 30%;
+}
+.address h1 {
+    color: white;
+    font-size: 28px;
+    font-family: monospace;
+    margin-top:0px;
+}
+.address p {
+    color: #fff;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+.card h1 {
+    color: #fff;
+    font-size: 18px;
+    font-family: auto;
+}
+.card ul {
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+.card li {
+    padding: 4px;
+}
+.card a {
+    color: #ffffff99;
+    text-decoration: none;
+    font-size: 16px;
+}
+.social-links {
+    display: flex;
+    width: 48%;
+    justify-content: space-between;
+}
+.twitter {
+    width: 30px;
+    height: 30px;
+    background: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:5px;
+}
+.twitter:hover{
+    background-color:#feb900;
+}
+
+.instagram {
+    width: 30px;
+    height: 30px;
+    background: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:5px;
+}
+.linkedin:hover{
+    background-color:#feb900;
+}
+.linkedin {
+    width: 30px;
+    height: 30px;
+    background: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:5px;
+}
+.instagram:hover{
+    background-color:#feb900;
+}
+.facebook {
+    width: 30px;
+    height: 30px;
+    background: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:5px;
+}
+.facebook:hover{
+    background-color:#feb900;
+}
+i.bi.bi-twitter {
+    color: #fff;
+    font-size: larger;
+   
+}
+i.bi.bi-instagram {
+    color: #fff;
+    font-size: larger;
+   
+}
+i.bi.bi-facebook {
+    color: #fff;
+    font-size: larger;
+    
+}
+i.bi.bi-linkedin {
+    color: #fff;
+    font-size: larger;
+    
+}
+.copyright {
+    padding-top: 18px;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 30px;
+}
+.copyright p {
+    color: #fff;
+    font-size:15px;
+}
+
+
+
+/*8th page ends*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+@media only screen and (max-width:768px) and (min-width:700px)  {
+.nav-list {
+    width: 66%;
+}
+.nav-list li {
+    cursor: pointer;
+    padding: 10px;
+}
+.nav-list a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #FFFFFF99;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+.qq {
+    width: 80%;
+    /* border: 1px solid black; */
+    margin: auto;
+    padding-top: 40px;
+}
+.getaquote {
+    padding-top: 90px;
+    display: block;
+    /* justify-content: space-evenly; */
+    background: #F4F6F7;
+    padding-bottom: 90px;
+}
+.getaquotebox1 {
+    width: 60%;
+    margin: auto;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.getaquotebox1 h1 {
+    margin-bottom: 0px;
+    font-size: 43px;
+    color: #52565e;
+}
+.getaquotebox1 p {
+    font-size: 20px;
+    color: #364d59;
+    font-family: math;
+}
+.getaquotebox2 {
+    width: 70%;
+    background-color: white;
+    padding: 21px;
+    margin: auto;
+}
+button#getaquotebtn {
+    border: 0px;
+    margin-top: 23;
+    /* text-align: center; */
+    margin-left: 190px;
+    height: 45px;
+    color: white;
+    background-color: #feb900;
+    width: 135px;
+    border-radius: 6px;
+}
+.container1 {
+    display: block;
+    justify-content: space-evenly;
+}
+.box1 {
+    border: none;
+    border: 1px solid #dee2e6;
+    width: 70%;
+    display: flex;
+    margin: auto;
+    margin-top: 35px;
+}
+.box2 {
+    border: none;
+    border: 1px solid #dee2e6;
+    display: flex;
+    width: 70%;
+    margin: auto;
+    margin-top: 35px;
+}
+.container2 {
+    display: block;
+    justify-content: space-evenly;
+}
+.box3 {
+    border: none;
+    border: 1px solid #dee2e6;
+    width: 70%;
+    display: flex;
+    margin: auto;
+    margin-top: 35px;
+}
+.box4 {
+    border: none;
+    border: 1px solid #dee2e6;
+    width: 70%;
+    display: flex;
+    margin: auto;
+    margin-top: 35px;
+}
+.aa {
+    padding: 40px;
+    padding-bottom: 0px;
+ display:block; 
+   
+    margin: auto;
+    width: 70%;
+}
+.servicebox1 {
+    background-color: #fff;
+    margin: 13px;
+    /* padding-bottom: 18px; */
+    padding: 28px;
+}
+
+.servicebox2 {
+    background-color: #fff;
+    margin: 13px;
+    /* padding-bottom: 18px; */
+    padding: 28px;
+margin-top: 42px;
+}
+.servicebox3 {
+    background-color: #fff;
+    margin: 13px;
+    /* padding-bottom: 18px; */
+    padding: 28px;
+margin-top: 42px;
+}
+.aab {
+    padding: 40px;
+    padding-top: 0;
+    padding-bottom: 70px;
+    display:block;
+    /* justify-content: space-evenly; */
+    margin: auto;
+    width: 70%;
+}
+.servicebox4 {
+    background-color: #fff;
+    margin: 13px;
+    /* padding-bottom: 18px; */
+    padding: 28px;
+margin-top: 42px;
+}
+
+.servicebox5 {
+    background-color: #fff;
+    margin: 13px;
+    /* padding-bottom: 18px; */
+    padding: 28px;
+margin-top: 42px;
+}
+.servicebox6 {
+    background-color: #fff;
+    margin: 13px;
+    /* padding-bottom: 18px; */
+    padding: 28px;
+margin-top: 42px;
+}
+.six li {
+    padding: 39px;
+    padding-top: 50px;
+}
+.six a {
+    font-size: 28px;
+    text-decoration: none;
+    color: #364d59;
+}
+.aaaa {
+    display: block;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: auto;
+    padding-top: 0px;
+    padding-bottom: 80px;
+    /* transform: rotate(360deg); */
+}
+.aacc h1 {
+    font-family: sans-serif;
+    font-size: 32px;
+    margin: 0px;
+    color: #52565e;
+}
+.aacc p {
+    margin-top: 15px;
+    font-size: 23px;
+    color: #364d59;
+}
+.aacc {
+   width:auto; 
+}
+.aaee {
+   width:auto; 
+}
+div {
+    display: block;
+}
+.project-list {
+    padding-top: 0px;
+    width:auto; 
+    margin: auto;
+}
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 63px;
+    width: auto;
+    /* margin: auto; */
+    border-bottom: 1px solid #ffffff99;
+    padding-bottom: 20px;
+}
+.address {
+    margin: 5px;
+    width: auto;
+}
+.address h1 {
+    color: white;
+    font-size: 20px;
+    font-family: monospace;
+    margin-top: 0px;
+}
+
+.social-links {
+    display: flex;
+     width:auto;
+    justify-content: space-between;
+}
+.card h1 {
+    color: #fff;
+    font-size: 15px;
+    font-family: auto;
+}
+}
+
+
+
+
+
+@media only screen and (max-width:450px) {
+.navbar {
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 0px;
+}
+.nav-list ul {
+   display:none;    
+padding-inline-start: 0px;
+}
+.logo p {
+    color: white;
+    font-size: 28px;
+    font-family: sans-serif;
+}
+i.fa-solid.fa-bars {
+    color: #fff;
+    font-size: 20px;
+    display:block;
+padding-right:12px;
+}
+.qq {
+    width: 90%;
+    /* border: 1px solid black; */
+    margin: auto;
+    padding-top: 45px;
+}
+.herocontainer h1 {
+    margin: 0px;
+    color: #fff;
+    font-size: 38px;
+}
+.herocontainer p {
+    color: #FFFFFF99;
+    font-size: 27px;
+}
+.getaquote {
+  padding-top: 30px; 
+    display: block;
+    justify-content: space-evenly;
+    background: #F4F6F7;
+    padding-bottom: 18px;
+}
+.getaquotebox1 {
+    width: 90%;
+    margin: 13px;
+    padding-top:0px;
+    padding-bottom: 43px;
+}
+.getaquotebox2 {
+    width: auto;
+    background-color: white;
+    padding: 21px;
+    margin: 12px;
+}
+button#getaquotebtn {
+    border: 0px;
+    margin-top: 23;
+    /* text-align: center; */
+    margin-left: 89px;
+    height: 45px;
+    color: white;
+    background-color: #feb900;
+    width: 135px;
+    border-radius: 6px;
+}
+.constructionpage {
+    padding-bottom: 38px;
+    padding-top: 25px;
+}
+.aboutconstruction {
+    text-align: center;
+    margin: auto;
+    width: 90%;
+}
+.aboutconstruction p {
+    margin-bottom: 0px;
+    font-size: 16px;
+    color: #364d59;
+}
+.container1 {
+    display: block;
+    justify-content: space-evenly;
+}
+.box1 {
+    border: none;
+    border: 1px solid #dee2e6;
+    width: 90%;
+    display: block;
+    margin: 15px;
+    margin-top: 35px;
+}
+.box1 img {
+  height:auto;
+    width: 100%;
+}
+.box2 {
+    border: none;
+    border: 1px solid #dee2e6;
+    width: 90%;
+    display: block;
+    margin: 15px;
+    margin-top: 35px;
+}
+.box2 img {
+     height: auto; 
+    width: 100%;
+}
+.container2 {
+    display: block;
+    justify-content: space-evenly;
+}
+.box3 {
+    border: none;
+    border: 1px solid #dee2e6;
+    width: 90%;
+    display: block;
+    margin: 15px;
+    margin-top: 35px;
+}
+.box3 img {
+     height: auto; 
+    width: 100%;
+}
+.box4 {
+    border: none;
+    border: 1px solid #dee2e6;
+    width: 90%;
+    display: block;
+    margin: 15px;
+    margin-top: 35px;
+}
+.box4 img {
+     height: auto; 
+    width: 100%;
+}
+.aboutservices {
+    margin: auto;
+    text-align: center;
+    width: 90%;
+    padding-top: 40px;
+}
+.aboutservices p {
+    margin-bottom: 0px;
+    font-size: 16px;
+    color: #364d59;
+}
+.aa {
+   padding: 0px;
+   padding-bottom: 0px;
+    display: block;
+    justify-content: space-evenly;
+    margin: auto;
+    width: 99%;
+  }
+.servicebox1 {
+    background-color: #fff;
+    margin: 10px;
+    padding: 18px;
+margin-top:23px;
+}
+.servicebox2 {
+    background-color: #fff;
+    margin: 10px;
+    padding: 18px;
+margin-top:23px;
+}
+.servicebox3 {
+    background-color: #fff;
+    margin: 10px;
+    padding: 18px;
+margin-top:23px;
+}
+.aab {
+   padding: 0px;
+   padding-bottom: 43px;
+    display: block;
+   
+    margin: auto;
+    width: 99%;
+  }
+.servicebox4 {
+    background-color: #fff;
+    margin: 10px;
+    padding: 18px;
+margin-top:23px;
+}
+.servicebox5 {
+    background-color: #fff;
+    margin: 10px;
+    padding: 18px;
+margin-top:23px;
+}
+.servicebox6 {
+    background-color: #fff;
+    margin: 10px;
+    padding: 18px;
+margin-top:23px;
+
+}
+.square {
+    display: block;
+    padding-top: 56px;
+    padding-bottom: 50px;
+    margin: auto;
+    justify-content: center;
+}
+.photo {
+    width: auto;
+}
+.photo img {
+    width: 99%;
+     height:auto; 
+}
+.photoobox {
+    width: 95%;
+    padding-top: 28px;
+    margin: auto;
+}
+.photoobox h1 {
+    margin-top: 0px;
+    font-size: 27px;
+    font-family: sans-serif;
+    margin-left: 0px; 
+    color: #52565E;
+}
+.photoobox h2 {
+    color: #feb900;
+    margin: 0;
+    margin-left: 12;
+}
+.photoobox p {
+    color: #364d59;
+    margin: 2px;
+    font-size: 16px;
+    margin-top: 41px;
+}
+.iconbox1 {
+    margin: 2px;
+    display: flex;
+    margin-top: 36px;
+    margin-left: 8px;
+}
+.data h3 {
+    margin: 0px;
+    font-size: 21px;
+    color: #364d59;
+    margin-left: 18px;
+}
+.data p {
+    margin: 0px ! important;
+    font-size: 16px ! important;
+    font-family: sans-serif;
+    margin-left: 16px ! important;
+    margin-top: 12px ! important;
+}
+.six1 {
+    margin: auto;
+    width: 90%;
+    padding-top: 12;
+}
+.six li {
+    padding: 8px;
+}
+.six a {
+    font-size: 17px;
+    text-decoration: none;
+    color: #364d59;
+}
+.aaaa {
+    display: block;
+    justify-content: space-evenly;
+    width: 90%;
+    margin: auto;
+    padding-top: 0px;
+    padding-bottom: 49px;
+}
+.aacc {
+    width: auto;
+}
+.aacc h1 {
+    font-family: sans-serif;
+    font-size: 30px;
+    margin: 0px;
+    color: #52565e;
+}
+.aacc p {
+    margin-top: 15px;
+    font-size: 16px;
+    color: #364d59;
+}
+.aaee {
+    width: auto;
+}
+.projects {
+    padding-top: 0px;
+    padding-bottom: 30px;
+}
+.ourprojects {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+.ourprojects p {
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #364d59;
+}
+.project-list {
+    padding-top: 0px;
+    text-align: center;
+}
+.project-list li {
+    padding: 5px;
+}
+.project-list a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #364d59;
+}
+.project-img {
+    display: block;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+.project-img img {
+    margin: 0px;
+    width: 100%;
+    opacity: 1;
+    margin-bottom: 24px;
+}
+.testmonialpage {
+    background: #f5f6f7;
+    padding-bottom: 49px;
+}
+.sss {
+    margin: auto;
+    padding-top: 8px;
+    width: 90%;
+    text-align: center;
+}
+.sss p {
+    font-size: 16px;
+    margin: 0px;
+}
+.testmonials {
+    padding-top: 28px;
+}
+.ddd {
+    width: 90%;
+    margin: auto;
+    background: #fff;
+    padding-bottom: 12px;
+}
+.pic img {
+    width: 32%;
+    border: 7px solid white;
+    border-radius: 14px;
+    margin-left: 18px;
+    margin-top: 18px;
+}
+.aaaaa h1 {
+    margin-top: 8px;
+    margin-left: 26px;
+    font-family: sans-serif;
+    font-size: 23px;
+    margin-bottom: 0px;
+}
+.aaaaa h2 {
+    font-size: 17px;
+    margin-top: 5px;
+    color: #364d59;
+    margin-left: 30px;
+    margin-bottom: 6px;
+}
+span {
+    color: #feb900;
+    margin-left: 29px;
+    margin-top: 0px;
+}
+.aaaaa p {
+    color: #364d59;
+    font-size: 12px;
+    margin-left: 29px;
+    margin-right: 11px;
+}
+.aaaaa {
+    padding: 0px;
+    display: block;
+    position: unset;
+    left: -12%;
+    top: -28px;
+}
+footer {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://bootstrapmade.com/demo/templates/UpConstruction/assets/img/footer-bg.jpg");
+}
+.footer {
+    display: block;
+    justify-content: space-around;
+    padding-top: 63px;
+    width: 90%;
+    margin: auto;
+    border-bottom: 1px solid #ffffff99;
+    padding-bottom: 20px;
+}
+.address {
+    margin: 5px;
+    width: auto;
+}
+.social-links {
+    display: flex;
+    width: 43%;
+    justify-content: space-between;
+}
+.card h1 {
+    color: #fff;
+    font-size: 18px;
+    font-family: auto;
+    margin-top: 25px;
+}
+.ourprojects h1 {
+    font-size: 31px;
+    color: black;
+    font-family: sans-serif;
+    margin-bottom: 12px;
+    position: relative;
+}
+.ourprojects h1::before {
+    content: '';
+    position: absolute;
+    width: 12%;
+    left: 80%;
+    top: 15px;
+    height: 2px;
+    background: #feb900;
+}
+.ourprojects h1::after {
+    content: '';
+    position: absolute;
+    width: 12%;
+    left: 9%;
+    top: 17px;
+    height: 2px;
+    background: #feb900;
+}
+.aboutservices h1::before {
+    content: '';
+    position: absolute;
+    width: 13%;
+    left: 74%;
+    top: 21px;
+    height: 3px;
+    background: #feb900;
+}
+.aboutservices h1::after {
+    content: '';
+    position: absolute;
+    width: 13%;
+    left: 13%;
+    top: 21px;
+    height: 3px;
+    background: #feb900;
+}
+.aboutconstruction h1 {
+    font-size: 31px;
+    font-family: sans-serif;
+    margin-bottom: 0px;
+    position: relative;
+}
+.aboutconstruction h1::before {
+    content: '';
+    position: absolute;
+    width: 15%;
+    left: 83%;
+    top: 15px;
+    height: 3px;
+    background: #feb900;
+}
+.aboutconstruction h1::after {
+    content: '';
+    position: absolute;
+    width: 13%;
+    left: 5%;
+    top: 18px;
+    height: 3px;
+    background: #feb900;
+}
+.sss h1 {
+    font-size: 31px;
+    font-family: sans-serif;
+    margin-bottom: 12px;
+    position: relative;
+}
+.sss h1::before {
+    content: '';
+    position: absolute;
+    width: 13%;
+    left: 80%;
+    top: 17px;
+    height: 3px;
+    background: #feb900;
+}
+.sss h1::after {
+    content: '';
+    position: absolute;
+    width: 13%;
+    left: 9%;
+    top: 20px;
+    height: 3px;
+    background: #feb900;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</style>
+
+</head>
+
+<body>
+
+<div class="herosection">
+
+<div class="navbar">
+<div class="logo">
+<p> Upconstruction.</p>
+</div>
+<div class="nav-list">
+<ul style="list-style-type:none">
+<li><a href="" target="_blank" id="home">home</a></li>
+<li><a href="" target="_blank">about</a></li>
+<li><a href="" target="_blank">services</a></li>
+<li><a href="" target="_blank">projects</a></li>
+<li><a href="" target="_blank">blog</a></li>
+<li><a href="" target="_blank">dropdown</a></li>
+<li><a href="" target="_blank">contact</a></li>
+
+</ul>
+
+</div>
+ <span><i class="fa-solid fa-bars"></i>  </span>
+</div>
+
+<div class="qq">
+<div class="herocontainer">
+<h1>Welcome to </h1>
+<h1>UpConstruction</h1>
+<h2>________</h2>
+<p> rem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+<button id="startbtn"> Get started</button>
+</div>
+</div>
+
+</div>
+
+<div class="getaquote">
+<div class="getaquotebox1">
+<h1>Minus hic non reiciendis ea possimus at quia.</h1>
+<h2>________</h2>
+<p>Rem id rerum. Debitis deserunt quidem delectus expedita ducimus dolor. Aut iusto ipsa. Eos ipsum nobis ipsa soluta itaque perspiciatis fuga ipsum perspiciatis. Eum amet fugiat totam nisi possimus ut delectus dicta.</p>
+<p>Aliquam velit deserunt autem. Inventore et saepe. Tenetur suscipit eligendi labore culpa eos. Deserunt porro magni qui necessitatibus dolorem at animi cupiditate.</p>
+</div>
+<div class="getaquotebox2">
+<h2>GET A QUOTE</h2>
+<p> Vel nobis odio laboriosam et hic voluptatem. Inventore vitae totam. Rerum repellendus enim linead sero park flows.</p>
+<form>
+<label for="name"></label>
+<input type="text" id="name" placeholder="name">
+<label for="email"></label>
+<input type="email" id="email" placeholder="email id">
+<label for="phone"></label>
+<input type="phone" id="phone" placeholder="phone">
+<label for="message"></label>
+<textarea id="message" placeholder="message"></textarea>
+<button id="getaquotebtn"> GET A QUOTE </button>
+</form>
+</div>
+</div>
+<div class="constructionpage">
+<div class="aboutconstruction">
+<h1> Constructions </h1>
+<p>Nulla dolorum nulla nesciunt rerum facere sed ut inventore quam porro nihil id ratione ea sunt quis dolorem dolore earum</p>
+</div>
+<div class="container1">
+<div class="box1">
+<div class="img1">
+<img src="https://victoryusa.org/images/teachings/churchplanting/newtestamentchurchplants2.webp">
+</div>
+<div class="content1">
+<h1>Eligendi omnis sunt veritatis.</h1>
+<P>Fuga in dolorum et iste et culpa. Commodi possimus nesciunt modi voluptatem placeat deleniti adipisci. Cum delectus doloribus non veritatis. Officia temporibus illo magnam. Dolor eos et.</p>
+</div>
+</div>
+<div class="box2">
+<div class="img1">
+<img src="https://bootstrapmade.com/demo/templates/UpConstruction/assets/img/constructions-2.jpg">
+</div>
+<div class="content1">
+<h1>Eligendi omnis sunt veritatis.</h1>
+<P>Fuga in dolorum et iste et culpa. Commodi possimus nesciunt modi voluptatem placeat deleniti adipisci. Cum delectus doloribus non veritatis. Officia temporibus illo magnam. Dolor eos et.</p>
+</div>
+</div>
+</div>
+
+<div class="container2">
+<div class="box3">
+<div class="img1">
+<img src="data:image/jpeg;base64,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">
+</div>
+<div class="content1">
+<h1>Eligendi omnis sunt veritatis.</h1>
+<P>Fuga in dolorum et iste et culpa. Commodi possimus nesciunt modi voluptatem placeat deleniti adipisci. Cum delectus doloribus non veritatis. Officia temporibus illo magnam. Dolor eos et.</p>
+</div>
+</div>
+<div class="box4">
+<div class="img1">
+<img src="https://estimateable.com/wp-content/uploads/elementor/thumbs/pexels-steffen-coonan-2098624-1-q7ie3fzqv4qle2fgiub7txbvqkvtgzl5bxtyqnzg9s.jpg">
+</div>
+<div class="content4">
+<h1>Eligendi omnis sunt veritatis.</h1>
+<P>Fuga in dolorum et iste et culpa. Commodi possimus nesciunt modi voluptatem placeat deleniti adipisci. Cum delectus doloribus non veritatis. Officia temporibus illo magnam. Dolor eos et.</p>
+</div>
+</div>
+</div>
+</div>
+
+<div class="servicespage">
+<div class="aboutservices">
+<h1> Services </h1>
+<p>Nulla dolorum nulla nesciunt rerum facere sed ut inventore quam porro nihil id ratione ea sunt quis dolorem dolore earum</p>
+</div>
+
+<div class="aa">
+<div class="servicebox1">
+<div class="mountaincity">
+<i class="fa-solid fa-mountain-city"></i>
+</div>
+<h1>Nesciunt Mete</h1>
+<h2>_________</h2>
+<p>Fuga in dolorum et iste et culpa. Commodi possimus nesciunt modi voluptatem placeat deleniti adipisci. Cum delectus doloribus non veritatis. Officia temporibus illo magnam. Dolor eos et.</p>
+<a href="">learn more <i class="fa-solid fa-arrow-right"></i></a>
+</div>
+<div class="servicebox2">
+<div class="mountaincity">
+<i class="fa-solid fa-arrow-up-from-ground-water"></i>
+</div>
+<h1>Nesciunt Mete</h1>
+<h2>_________</h2>
+<p>Fuga in dolorum et iste et culpa. Commodi possimus nesciunt modi voluptatem placeat deleniti adipisci. Cum delectus doloribus non veritatis. Officia temporibus illo magnam. Dolor eos et.</p>
+<a href="">learn more <i class="fa-solid fa-arrow-right"></i></a>
+</div>
+<div class="servicebox3">
+<div class="mountaincity">
+<i class="fa-solid fa-compass-drafting"></i>
+</div>
+<h1>Nesciunt Mete</h1>
+<h2>_________</h2>
+<p>Fuga in dolorum et iste et culpa. Commodi possimus nesciunt modi voluptatem placeat deleniti adipisci. Cum delectus doloribus non veritatis. Officia temporibus illo magnam. Dolor eos et.</p>
+<a href="">learn more <i class="fa-solid fa-arrow-right"></i></a>
+</div>
+</div>
+<div class="aab">
+<div class="servicebox4">
+<div>
+<div class="mountaincity">
+<i class="fa-solid fa-trowel-bricks"></i>
+</div>
+<h1>Nesciunt Mete</h1>
+<h2>_________</h2>
+<p>Fuga in dolorum et iste et culpa. Commodi possimus nesciunt modi voluptatem placeat deleniti adipisci. Cum delectus doloribus non veritatis. Officia temporibus illo magnam. Dolor eos et.</p>
+<a href="">learn more <i class="fa-solid fa-arrow-right"></i></a>
+</div>
+</div>
+<div class="servicebox5">
+<div class="mountaincity">
+<i class="fa-solid fa-helmet-safety"></i>
+</div>
+<h1>Nesciunt Mete</h1>
+<h2>_________</h2>
+<p>Fuga in dolorum et iste et culpa. Commodi possimus nesciunt modi voluptatem placeat deleniti adipisci. Cum delectus doloribus non veritatis. Officia temporibus illo magnam. Dolor eos et.</p>
+<a href="">learn more <i class="fa-solid fa-arrow-right"></i></a>
+</div>
+
+<div class="servicebox6">
+<div class="mountaincity">
+	<i class="fa-solid fa-arrow-up-from-ground-water"></i>
+</div>
+<h1>Nesciunt Mete</h1>
+<h2>_________</h2>
+<p>Fuga in dolorum et iste et culpa. Commodi possimus nesciunt modi voluptatem placeat deleniti adipisci. Cum delectus doloribus non veritatis. Officia temporibus illo magnam. Dolor eos et.</p>
+<a href="">learn more  <i class="fa-solid fa-arrow-right"></i></a>
+</div>
+</div>
+</div>
+
+
+<div class="square">
+<div class="photo">
+<img src="https://bootstrapmade.com/demo/templates/UpConstruction/assets/img/alt-services.jpg">
+</div>
+<div class="photoobox">
+<h1>Enim quis est voluptatibus aliquid consequatur fugiat</h1>
+<h2>_________</h2>
+<p>Esse voluptas cumque vel exercitationem. Reiciendis est hic accusamus. Non ipsam et sed minima temporibus laudantium. Soluta voluptate sed facere corporis dolores excepturi</p>
+<div class="iconbox1">
+<div class="icon1">
+<span class="bi bi-easel"></span>
+</div>
+<div class="data">
+<h3>Lorem Ipsum</h3>
+<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+</div>
+</div>
+
+<div class="iconbox1">
+<div class="icon1">
+<span class="bi bi-easel"></span>
+</div>
+<div class="data">
+<h3>Nemo Enim</h3>
+<p>.At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+</div>
+</div>
+
+<div class="iconbox1">
+<div class="icon1">
+<span class="bi bi-easel"></span>
+</div>
+<div class="data">
+<h3>Dine Pad</h3>
+<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+</div>
+</div>
+
+
+
+<div class="iconbox1">
+<div class="icon1">
+<span class="bi bi-easel"></span>
+</div>
+<div class="data">
+<h3>Tride Clove</h3>
+<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+</div>
+</div>
+
+
+</div>
+</div>
+
+
+
+<div class="sixthpage">
+<div class="six1">
+<ul class="six">
+<li><a href="">Modisit</a></li>
+<li><a href="">Praesenti</a></li>
+<li><a href="">Explica</a></li>
+<li><a href="">Nostrum</a></li>
+</ul>
+</div>
+
+<div class="aaaa">
+<div class="aacc">
+<h1>Voluptatem dignissimos provident</h1>
+<h2>_____________</h2>
+<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+<p><i class="bi bi-check2-all"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+<p> <i class="bi bi-check2-all"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+<p> <i class="bi bi-check2-all"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</p>
+</div>
+<div class="aaee">
+<img src="https://bootstrapmade.com/demo/templates/UpConstruction/assets/img/features-1.jpg">
+</div>
+
+</div>
+
+</div>
+
+
+
+
+<div class="projects">
+<div class="ourprojects">
+<h1> Our Projects </h1>
+<p>Consequatur libero assumenda est voluptatem est quidem illum et officia imilique qui vel architecto accusamus fugit aut qui distinctio</p>
+</div>
+<div class="project-list">
+<ul>
+<li><a href="">All</a></li>
+<li><a href="">Remodeling</a></li>
+<li><a href="">Construction</a></li>
+<li><a href="">Repairs</a></li>
+<li><a href="">Design</a></li>
+</ul>
+</div>
+<div class="project-img">
+
+<img src="https://bootstrapmade.com/demo/templates/UpConstruction/assets/img/projects/remodeling-1.jpg">
+<img src="https://bootstrapmade.com/demo/templates/UpConstruction/assets/img/projects/construction-1.jpg">
+<img src="https://bootstrapmade.com/demo/templates/UpConstruction/assets/img/projects/repairs-1.jpg">
+
+</div>
+<div class="project-img">
+
+<img src="https://bootstrapmade.com/demo/templates/UpConstruction/assets/img/projects/design-1.jpg">
+<img src="https://bootstrapmade.com/demo/templates/UpConstruction/assets/img/projects/remodeling-2.jpg">
+<img src="https://bootstrapmade.com/demo/templates/UpConstruction/assets/img/projects/construction-2.jpg">
+
+</div>
+<div class="project-img">
+
+<img src="https://bootstrapmade.com/demo/templates/UpConstruction/assets/img/projects/repairs-2.jpg">
+<img src="https://bootstrapmade.com/demo/templates/UpConstruction/assets/img/projects/design-2.jpg">
+<img src="https://bootstrapmade.com/demo/templates/UpConstruction/assets/img/projects/remodeling-3.jpg">
+</div>
+<div class="project-img">
+
+<img src="https://bootstrapmade.com/demo/templates/UpConstruction/assets/img/projects/remodeling-3.jpg">
+<img src="https://bootstrapmade.com/demo/templates/UpConstruction/assets/img/projects/repairs-3.jpg">
+<img src="https://bootstrapmade.com/demo/templates/UpConstruction/assets/img/projects/design-3.jpg">
+
+</div>
+</div>
+
+
+
+<div class="testmonialpage">
+<div class="sss">
+<h1>Testimonials</h1>
+<p>Quam sed id excepturi ccusantium dolorem ut quis dolores nisi llum nostrum enim velit qui ut et autem uia reprehenderit sunt deleniti</p>
+</div>
+
+<div class="testmonials">
+
+<div class="ddd">
+<div class="aaaaa">
+<div class="pic">
+<img src="https://bootstrapmade.com/demo/templates/UpConstruction/assets/img/testimonials/testimonials-4.jpg">
+</div>
+<div class="dataa">
+<h1>Matt Branden</h1>
+
+<h2>Freelancer</h2>
+<span><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></span>
+<p><sup><i class="fa-solid fa-quote-left"></i></sup> Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.<sub><i class="fa fa-quote-right" aria-hidden="true"></i></sub></p>
+     </div>               
+</div>
+</div>
+</div>
+
+</div>
+
+
+
+
+
+<footer>
+<div class="footer">
+
+
+<div class="address">
+<h1>UPCONSTRUCTION </h1>
+<p>
+A108 Adam Street</p>
+<p>NY 535022, USA
+</p>
+<p>Phone: +1 5589 55488 55</p>
+<p>Email: info@example.com</p>
+<div class="social-links">
+<div class="twitter">
+<a href=""><i class="bi bi-twitter"></i></a>
+</div>
+<div class="facebook">
+<a href=""><i class="bi bi-facebook"></i></a>
+</div>
+<div class="instagram">
+<a href=""> <i class="bi bi-instagram"></i></a>
+</div>
+<div class="linkedin">
+<a href=""><i class="bi bi-linkedin"></i></a>
+</div>
+</div>
+</div>
+
+<div class="card">
+<h1>Useful Links</h1>
+<ul>
+<li> <a href="">Home</a><li>
+<li> <a href="">About us</a><li>
+<li> <a href="">Services</a><li>
+<li> <a href="">Terms of service</a><li>
+<li> <a href="">Privacy policy</a><li>
+</ul>
+</div>
+
+<div class="card">
+<h1>Our Services</h1>
+<ul>
+<li> <a href="">Web Design</a><li>
+<li> <a href="">Web Development</a><li>
+<li> <a href="">Product Management</a><li>
+<li> <a href="">Marketing</a><li>
+<li> <a href="">Graphic Design</a><li>
+</ul>
+</div>
+
+<div class="card">
+<h1>Hic solutasetp</h1>
+<ul>
+<li> <a href="">Molestiae accusamus iure</a><li>
+<li> <a href="">Excepturi dignissimos</a><li>
+<li> <a href="">Suscipit distinctio</a><li>
+<li> <a href="">Dilecta</a><li>
+<li> <a href="">Sit quas consectetur</a><li>
+</ul>
+</div>
+
+<div class="card">
+<h1>Useful Links</h1>
+<ul>
+<li> <a href="">Home</a><li>
+<li> <a href="">About us</a><li>
+<li> <a href="">Services</a><li>
+<li> <a href="">Terms of service</a><li>
+<li> <a href="">Privacy policy</a><li>
+</ul>
+</div>
+
+
+
+
+</div>
+<div class="copyright">
+<p>© Copyright UpConstruction. All Rights Reserved</p>
+<p>Designed by html</p>
+<div>
+
+
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
